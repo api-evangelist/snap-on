@@ -1,7 +1,12 @@
 aid: snap-on
-url: https://raw.githubusercontent.com/api-evangelist/snap-on/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/snap-on/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.snap-on.com
+description: >-
+  Snap-on is a global manufacturer and marketer of tools, equipment, diagnostics,
+  repair information, and systems solutions for professional users in vehicle repair,
+  industrial, and other industries.
