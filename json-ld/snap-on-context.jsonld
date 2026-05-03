@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "https://schema.org/",
+    "snap": "https://api-evangelist.github.io/snap-on/vocabulary/",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "identifier": "schema:identifier",
+    "manufacturer": {
+      "@id": "schema:manufacturer",
+      "@type": "@id"
+    },
+    "product": {
+      "@id": "schema:Product",
+      "@type": "@id"
+    },
+    "Organization": "schema:Organization",
+    "AutoRepair": "schema:AutoRepair",
+    "Product": "schema:Product",
+    "SoftwareApplication": "schema:SoftwareApplication",
+    "ElectronicPartsCatalog": {
+      "@id": "snap:ElectronicPartsCatalog",
+      "@type": "schema:SoftwareApplication"
+    },
+    "DiagnosticTool": {
+      "@id": "snap:DiagnosticTool",
+      "@type": "schema:Product"
+    },
+    "RepairInformationSystem": {
+      "@id": "snap:RepairInformationSystem",
+      "@type": "schema:SoftwareApplication"
+    },
+    "DealerManagementSystem": {
+      "@id": "snap:DealerManagementSystem",
+      "@type": "schema:SoftwareApplication"
+    },
+    "vehicleMake": {
+      "@id": "snap:vehicleMake",
+      "@type": "xsd:string"
+    },
+    "vehicleModel": {
+      "@id": "snap:vehicleModel",
+      "@type": "xsd:string"
+    },
+    "modelYear": {
+      "@id": "snap:modelYear",
+      "@type": "xsd:integer"
+    },
+    "partNumber": {
+      "@id": "snap:partNumber",
+      "@type": "xsd:string"
+    },
+    "repairOrderId": {
+      "@id": "snap:repairOrderId",
+      "@type": "xsd:string"
+    },
+    "technicianId": {
+      "@id": "snap:technicianId",
+      "@type": "xsd:string"
+    },
+    "faultCode": {
+      "@id": "snap:faultCode",
+      "@type": "xsd:string"
+    },
+    "diagnosticCode": {
+      "@id": "snap:diagnosticCode",
+      "@type": "xsd:string"
+    },
+    "repairProcedure": {
+      "@id": "snap:repairProcedure",
+      "@type": "schema:HowTo"
+    },
+    "technicalServiceBulletin": {
+      "@id": "snap:technicalServiceBulletin",
+      "@type": "schema:Article"
+    },
+    "picklist": {
+      "@id": "snap:picklist",
+      "@type": "@id"
+    },
+    "picklistItem": {
+      "@id": "snap:picklistItem",
+      "@type": "@id"
+    },
+    "quantity": {
+      "@id": "snap:quantity",
+      "@type": "xsd:integer"
+    },
+    "unitPrice": {
+      "@id": "snap:unitPrice",
+      "@type": "xsd:decimal"
+    },
+    "availability": {
+      "@id": "schema:availability",
+      "@type": "@id"
+    },
+    "realFix": {
+      "@id": "snap:realFix",
+      "@type": "schema:HowTo"
+    },
+    "vehicleIdentificationNumber": {
+      "@id": "snap:vehicleIdentificationNumber",
+      "@type": "xsd:string"
+    },
+    "dmsProvider": {
+      "@id": "snap:dmsProvider",
+      "@type": "xsd:string"
+    },
+    "integrationMethod": {
+      "@id": "snap:integrationMethod",
+      "@type": "xsd:string"
+    },
+    "dealerCode": {
+      "@id": "snap:dealerCode",
+      "@type": "xsd:string"
+    },
+    "createdAt": {
+      "@id": "schema:dateCreated",
+      "@type": "xsd:dateTime"
+    },
+    "updatedAt": {
+      "@id": "schema:dateModified",
+      "@type": "xsd:dateTime"
+    }
+  }
+}

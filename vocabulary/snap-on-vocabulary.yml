@@ -1,0 +1,149 @@
+name: Snap-on Vocabulary
+description: >-
+  Domain vocabulary for Snap-on tools, diagnostics, repair information,
+  and electronic parts catalog systems used by automotive and industrial
+  professionals worldwide.
+tags:
+  - Automotive
+  - Diagnostics
+  - Electronic Parts Catalog
+  - Industrial Tools
+  - Repair Information
+created: '2026-05-02'
+modified: '2026-05-02'
+
+terms:
+  - term: Electronic Parts Catalog (EPC)
+    abbreviation: EPC
+    definition: >-
+      A software system used by automotive dealerships to look up, price, and
+      order OEM parts. Snap-on EPC5 integrates with dealer management systems
+      (DMS) to streamline parts ordering workflows.
+    tags:
+      - Parts Management
+      - Dealer Operations
+
+  - term: Dealer Management System (DMS)
+    abbreviation: DMS
+    definition: >-
+      Enterprise software used by automotive dealerships to manage operations
+      including service repair orders, parts inventory, customer records, and
+      financial accounting. Snap-on EPC integrates with leading DMS providers
+      including CDK, Dealertrack, and Tekion.
+    tags:
+      - Dealer Operations
+      - Enterprise Software
+
+  - term: SureTrack
+    definition: >-
+      Snap-on's cloud-based expert knowledge platform providing automotive
+      technicians with Real Fixes, diagnostic experience, and verified parts
+      replacement records gathered from millions of successful repair orders.
+    tags:
+      - Cloud Platform
+      - Diagnostics
+      - Expert Knowledge
+
+  - term: Real Fix
+    definition: >-
+      A verified repair solution documented in SureTrack, derived from actual
+      successful repairs performed by professional technicians on specific
+      vehicle makes, models, and fault codes.
+    tags:
+      - Diagnostics
+      - Repair Information
+
+  - term: ShopKey Pro
+    definition: >-
+      Snap-on's online subscription-based repair information system combining
+      OEM data, wiring diagrams, TSBs, maintenance schedules, and SureTrack
+      expert information for over 50 vehicle makes.
+    tags:
+      - Repair Information
+      - Subscription Service
+
+  - term: Technical Service Bulletin (TSB)
+    abbreviation: TSB
+    definition: >-
+      An official communication from a vehicle manufacturer to dealerships and
+      service professionals documenting known issues, updated repair procedures,
+      or parts updates for specific vehicles.
+    tags:
+      - OEM Data
+      - Repair Information
+
+  - term: Pass-Thru
+    definition: >-
+      A technology that allows diagnostic tools to communicate directly with a
+      vehicle's ECU modules via a PC interface, enabling OEM-level programming,
+      flash reprogramming, and advanced diagnostics through manufacturer-secure
+      gateways.
+    tags:
+      - Diagnostics
+      - OEM Integration
+
+  - term: OEM Gateway
+    definition: >-
+      A manufacturer-controlled secure access point that grants authorized
+      diagnostic tools direct communication with vehicle ECU modules for
+      programming and advanced diagnostics. Snap-on provides access to OEM
+      gateways for manufacturers including Chrysler, Ford, VW, Audi, Mercedes-Benz,
+      Nissan, Volvo, Hyundai, and Kia.
+    tags:
+      - OEM Integration
+      - Security
+
+  - term: Snap-on Business Solutions (SBS)
+    abbreviation: SBS
+    definition: >-
+      The business unit of Snap-on Incorporated that provides parts and service
+      technology solutions to 125,000 automobile and equipment dealerships across
+      130+ countries, including EPC systems, repair information, and DMS integrations.
+    tags:
+      - Business Solutions
+      - Dealer Operations
+
+  - term: Snaplex
+    definition: >-
+      SnapLogic's data integration runtime component — not related to Snap-on.
+      Snap-on's equivalent distributed field platform is its franchise dealer
+      network of mobile tool stores and technician-grade equipment.
+    tags:
+      - Disambiguation
+
+  - term: Picklist
+    definition: >-
+      In the Snap-on EPC context, a picklist is the collection of parts selected
+      during a lookup session that can be exported to a DMS via file-writer or
+      API integration for parts ordering and repair order creation.
+    tags:
+      - Parts Management
+      - Integration
+
+  - term: Launch EPC
+    definition: >-
+      An integration method in Snap-on EPC that allows dealership staff to open
+      the EPC directly from within a DMS, with VIN and customer data automatically
+      pre-populated for streamlined parts lookup.
+    tags:
+      - Integration
+      - Dealer Operations
+
+  - term: File Writer Integration
+    definition: >-
+      A Snap-on EPC integration approach where the EPC writes picklist data to a
+      local file that DMS software reads and imports, following an established
+      industry standard format supported by many DMS vendors.
+    tags:
+      - Integration
+      - Parts Management
+
+  - term: Automotive Partner Cloud (APC)
+    definition: >-
+      Tekion's platform for connecting automotive technology providers. Snap-on
+      EPC is available through APC, enabling dealers to launch the EPC directly
+      from Tekion ARC with VIN and customer data automatically populated.
+    tags:
+      - Cloud Platform
+      - Integration
+      - Partners
