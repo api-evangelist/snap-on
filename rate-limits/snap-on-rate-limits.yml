@@ -4,103 +4,30 @@ schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main
 provider: Snap-on
 providerId: snap-on
 created: '2026-05-04'
-modified: '2026-05-04'
+modified: '2026-05-05'
+reconciled: false
 tags:
-  - Automotive
+  - Tools
   - Diagnostics
-  - Electronic Parts Catalog
-  - Industrial Tools
-  - Manufacturing
-  - Repair Information
-  - Vehicle Repair
   - Rate Limiting
-  - Quotas
-  - Throttling
-description: Machine-readable rate limit definitions for the Snap-on API surface. Captures per-tier quotas,
-  burst behavior, response signaling, and recovery semantics. Defaults are scaffold values to be replaced
-  with published provider limits.
-headers:
-  limit: X-RateLimit-Limit
-  remaining: X-RateLimit-Remaining
-  reset: X-RateLimit-Reset
-  retryAfter: Retry-After
-  policy: RateLimit-Policy
-responseCodes:
-  throttled: 429
-  quotaExceeded: 429
-  serviceUnavailable: 503
+description: Snap-on does not publish a public API or developer portal, so no documented rate
+  limits exist. This artifact is a placeholder.
+sources:
+  - https://www.snapon.com
+notes: |
+  No public API. Any integrations with Snap-on diagnostic or business systems are bilateral and not
+  governed by a public rate-limit policy.
+responseCodes: {}
 limits:
-  - tier: free
-    name: Free Tier Default
-    scope: api-key
-    metric: requests_per_minute
-    limit: 10
-    burst: 20
-    timeFrame: minute
-    applies:
-      - Snap-on Electronic Parts Catalog (EPC)
-      - ShopKey Pro Repair Information System
-      - SureTrack Expert Information
-      - Snap-on Diagnostics Software
-  - tier: free
-    name: Free Tier Monthly Quota
-    scope: api-key
-    metric: requests_per_month
-    limit: 1000
-    timeFrame: month
-    applies:
-      - Snap-on Electronic Parts Catalog (EPC)
-      - ShopKey Pro Repair Information System
-      - SureTrack Expert Information
-      - Snap-on Diagnostics Software
-  - tier: professional
-    name: Professional Tier Default
-    scope: api-key
-    metric: requests_per_minute
-    limit: 100
-    burst: 200
-    timeFrame: minute
-    applies:
-      - Snap-on Electronic Parts Catalog (EPC)
-      - ShopKey Pro Repair Information System
-      - SureTrack Expert Information
-      - Snap-on Diagnostics Software
-  - tier: professional
-    name: Professional Tier Monthly Quota
-    scope: api-key
-    metric: requests_per_month
-    limit: 100000
-    timeFrame: month
-    applies:
-      - Snap-on Electronic Parts Catalog (EPC)
-      - ShopKey Pro Repair Information System
-      - SureTrack Expert Information
-      - Snap-on Diagnostics Software
-  - tier: enterprise
-    name: Enterprise Negotiated Limit
+  - name: No Public API
     scope: contract
-    metric: requests_per_minute
-    limit: 1000
-    burst: 5000
-    timeFrame: minute
-    applies:
-      - Snap-on Electronic Parts Catalog (EPC)
-      - ShopKey Pro Repair Information System
-      - SureTrack Expert Information
-      - Snap-on Diagnostics Software
+    metric: varies
+    limit: 'no public API'
+    notes: Snap-on publishes no developer portal or API documentation.
 policies:
-  - name: Backoff Strategy
-    description: Clients should implement exponential backoff with jitter, honoring the Retry-After header
-      when present.
-  - name: Burst Handling
-    description: Short bursts above the steady-state limit are tolerated up to the documented burst ceiling
-      before throttling engages.
-  - name: Quota Reset
-    description: Monthly quotas reset at the start of each calendar month in UTC. Per-minute and per-second
-      windows reset on a sliding-window basis.
-  - name: Fair Use
-    description: Even on uncapped enterprise tiers, sustained usage that materially impacts shared infrastructure
-      may be subject to fair-use throttling.
+  - name: Bilateral Integration
+    description: Any data exchanges occur via Snap-on Business Solutions or product-team
+      arrangements rather than a public rate-limit policy.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
