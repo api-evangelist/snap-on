@@ -99,6 +99,8 @@ apis:
       - type: Documentation
         url: https://www.snapon.com/EN/US/Diagnostics/Information--Software-Products/Diagnostic-Tool-Software
 common:
+  - type: DomainSecurity
+    url: security/snap-on-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/snap-on
   - type: Website
