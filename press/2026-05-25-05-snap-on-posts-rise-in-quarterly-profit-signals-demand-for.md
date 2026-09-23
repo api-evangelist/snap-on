@@ -1,7 +1,9 @@
 ---
 title: Snap-On posts rise in quarterly profit, signals demand for ...
 url: https://www.reuters.com/business/snap-on-posts-rise-quarterly-profit-strong-industrial-tools-demand-2026-04-23/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Snap-on" press release artificial intelligence'
 position: 5
 source: serpapi-google

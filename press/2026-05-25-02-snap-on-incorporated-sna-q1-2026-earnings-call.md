@@ -1,7 +1,9 @@
 ---
 title: Snap-on Incorporated (SNA) Q1 2026 Earnings Call ...
 url: https://seekingalpha.com/article/4893513-snap-on-incorporated-sna-q1-2026-earnings-call-transcript
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Snap-on" press release artificial intelligence'
 position: 2
 source: serpapi-google

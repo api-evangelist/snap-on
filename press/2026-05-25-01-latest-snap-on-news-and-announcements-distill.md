@@ -1,7 +1,9 @@
 ---
 title: Latest Snap-on News & Announcements - Distill
 url: https://www.distillintelligence.com/news/snap-on
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Snap-on" press release artificial intelligence'
 position: 1
 source: serpapi-google

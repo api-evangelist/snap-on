@@ -1,7 +1,9 @@
 ---
 title: we make in the markets where we sell
 url: https://www.snapon.com/Snap-on-Files/Annual-Reports/Snap-on-2025-Annual-Report.pdf
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Snap-on" press release artificial intelligence'
 position: 4
 source: serpapi-google

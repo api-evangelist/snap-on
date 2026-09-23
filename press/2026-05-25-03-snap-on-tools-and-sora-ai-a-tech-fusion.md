@@ -1,7 +1,9 @@
 ---
 title: 'Snap-on Tools and Sora AI: A Tech Fusion'
 url: https://www.tiktok.com/@matt61425/video/7558138261617528078
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Snap-on" press release artificial intelligence'
 position: 3
 source: serpapi-google
