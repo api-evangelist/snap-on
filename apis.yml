@@ -37,13 +37,13 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snap-on.png
 tags:
   - Automotive
-  - Diagnostics
   - Electronic Parts Catalog
   - Industrial Tools
   - Manufacturing
   - Repair Information
   - Vehicle Repair
   - Fortune 1000
+  - Vehicle Diagnostics
 created: '2026-03-24'
 modified: '2026-05-02'
 specificationVersion: '0.23'
